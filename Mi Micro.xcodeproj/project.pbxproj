@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 73;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90837AF2C41994C00298241 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90837AE2C41994000298241 /* MenuView.swift */; };
+		C90837B12C424F7800298241 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90837B02C424F7700298241 /* ProfileView.swift */; };
+		C90837B32C4252C900298241 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90837B22C4252C900298241 /* RoutesView.swift */; };
 		C9A458D02C3BBC87002B3403 /* Mi_MicroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A458CF2C3BBC87002B3403 /* Mi_MicroApp.swift */; };
 		C9A458D22C3BBC87002B3403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A458D12C3BBC87002B3403 /* ContentView.swift */; };
 		C9A458D42C3BBC88002B3403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A458D32C3BBC88002B3403 /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		C9A458E12C3BBC89002B3403 /* Mi_MicroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A458E02C3BBC89002B3403 /* Mi_MicroTests.swift */; };
 		C9A458EB2C3BBC89002B3403 /* Mi_MicroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A458EA2C3BBC89002B3403 /* Mi_MicroUITests.swift */; };
 		C9A458ED2C3BBC89002B3403 /* Mi_MicroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A458EC2C3BBC89002B3403 /* Mi_MicroUITestsLaunchTests.swift */; };
+		C9A458FA2C3BBE87002B3403 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9A458F92C3BBE7C002B3403 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C90837AE2C41994000298241 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		C90837B02C424F7700298241 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C90837B22C4252C900298241 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
 		C9A458CC2C3BBC87002B3403 /* Mi Micro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi Micro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A458CF2C3BBC87002B3403 /* Mi_MicroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_MicroApp.swift; sourceTree = "<group>"; };
 		C9A458D12C3BBC87002B3403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		C9A458E62C3BBC89002B3403 /* Mi MicroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi MicroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A458EA2C3BBC89002B3403 /* Mi_MicroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_MicroUITests.swift; sourceTree = "<group>"; };
 		C9A458EC2C3BBC89002B3403 /* Mi_MicroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_MicroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9A458F92C3BBE7C002B3403 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,7 @@
 				C9A458DF2C3BBC89002B3403 /* Mi MicroTests */,
 				C9A458E92C3BBC89002B3403 /* Mi MicroUITests */,
 				C9A458CD2C3BBC87002B3403 /* Products */,
+				C9A458F92C3BBE7C002B3403 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +103,13 @@
 		C9A458CE2C3BBC87002B3403 /* Mi Micro */ = {
 			isa = PBXGroup;
 			children = (
+				C90837AE2C41994000298241 /* MenuView.swift */,
 				C9A458CF2C3BBC87002B3403 /* Mi_MicroApp.swift */,
 				C9A458D12C3BBC87002B3403 /* ContentView.swift */,
+				C90837B02C424F7700298241 /* ProfileView.swift */,
 				C9A458D32C3BBC88002B3403 /* Assets.xcassets */,
 				C9A458D52C3BBC88002B3403 /* Preview Content */,
+				C90837B22C4252C900298241 /* RoutesView.swift */,
 			);
 			path = "Mi Micro";
 			sourceTree = "<group>";
@@ -207,7 +219,6 @@
 				};
 			};
 			buildConfigurationList = C9A458C72C3BBC87002B3403 /* Build configuration list for PBXProject "Mi Micro" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,6 +226,7 @@
 				Base,
 			);
 			mainGroup = C9A458C32C3BBC87002B3403;
+			preferredProjectObjectVersion = 73;
 			productRefGroup = C9A458CD2C3BBC87002B3403 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A458FA2C3BBE87002B3403 /* README.md in Resources */,
 				C9A458D72C3BBC88002B3403 /* Preview Assets.xcassets in Resources */,
 				C9A458D42C3BBC88002B3403 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90837B12C424F7800298241 /* ProfileView.swift in Sources */,
+				C90837B32C4252C900298241 /* RoutesView.swift in Sources */,
 				C9A458D22C3BBC87002B3403 /* ContentView.swift in Sources */,
 				C9A458D02C3BBC87002B3403 /* Mi_MicroApp.swift in Sources */,
+				C90837AF2C41994C00298241 /* MenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,15 +435,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mi Micro/Mi Micro.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mi Micro/Preview Content\"";
 				DEVELOPMENT_TEAM = L3NSFVB5U9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mi-Micro-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "RicardoNieblas.Mi-Micro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -448,15 +469,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mi Micro/Mi Micro.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mi Micro/Preview Content\"";
 				DEVELOPMENT_TEAM = L3NSFVB5U9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mi-Micro-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "RicardoNieblas.Mi-Micro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
